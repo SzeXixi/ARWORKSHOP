@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/DemoSpatial.unity
+- path: Assets/Scenes/UITEST1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
