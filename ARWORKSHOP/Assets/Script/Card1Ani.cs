@@ -8,7 +8,7 @@ public class Card1Ani : MonoBehaviour
     public Animation card3ani;
     public Animation ruleani;
     public float animationSpeed = 1.0f; // 动画播放速度
-
+    public int sceneIndex1=-1;
     private bool isSelected = false; // 标志位，表示是否已经选中
 
     void Start()
@@ -22,7 +22,7 @@ public class Card1Ani : MonoBehaviour
     public void OnCard1Clicked()
     {
         // 当卡牌被点击时调用
-
+        sceneIndex1 = 1;
         // 如果已经选中，则取消选中状态
         if (isSelected)
         {
