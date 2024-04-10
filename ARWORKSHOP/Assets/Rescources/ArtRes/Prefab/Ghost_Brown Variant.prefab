@@ -767,7 +767,7 @@ MonoBehaviour:
   _selectSurface: {fileID: 0}
   _movementProvider: {fileID: 0}
   _tiebreakerScore: 0
---- !u!114 &1945071278
+--- !u!114 &185421606256999383
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -781,6 +781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   healthSlider: {fileID: 421282921}
+  dropPrefab: {fileID: 1286642351114043704, guid: a6fb04fd966babf45ae3ed65f63e0015, type: 3}
 --- !u!114 &8093264902364579677
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class attack : MonoBehaviour
     public Slider healthSlider;
     private InteractableUnityEventWrapper unityEvent;
     private MeshRenderer meshRenderer;
+    public GameObject dropPrefab; // 掉落物预制体
 
     void Start()
     {
@@ -30,6 +31,8 @@ public class attack : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
+            // 实例化掉落物
+            Instantiate(dropPrefab, transform.position, Quaternion.identity);
             Destroy(gameObject); // 怪物生命值小于等于0时销毁怪物对象
         }
     }
