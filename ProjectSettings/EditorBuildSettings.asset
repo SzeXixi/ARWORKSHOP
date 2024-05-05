@@ -9,10 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/UI.unity
     guid: 301fccdf18a875f43bf3c318f9714207
   - enabled: 1
-    path: Assets/Scenes/DemoSpatial 1.unity
+    path: Assets/Scenes/sence1.unity
     guid: ce015ac76f425274c9567705dd81dc23
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/sence2.unity
+    guid: 6686ac72e82816049a34192c40cd6eab
+  - enabled: 1
+    path: Assets/Scenes/sence3.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: be36d5186edbaba42aac70a9333dfd5e, type: 2}
