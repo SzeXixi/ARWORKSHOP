@@ -781,21 +781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   healthSlider: {fileID: 421282921}
---- !u!114 &8093264902364579677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4243239300958779454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27d2707374d0e6d48990154118c79649, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  healthSlider: {fileID: 421282921}
-  Enemy: {fileID: 4243239300958779454}
+  dropPrefab: {fileID: 4817721828832761100, guid: bf1a87b1ddc21a0439f93ec9bbba3da7, type: 3}
 --- !u!4 &4246538019207098540 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000010213081396, guid: 47228d4b7bdfaa94fbf70257eaa459a1, type: 3}
